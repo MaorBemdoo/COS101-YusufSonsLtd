@@ -7,3 +7,5 @@ time = float(input("Enter a time(years): "))
 simple_interest = "₦" + str((principal * rate * time)/100)
 
 print("\nSimple Interest = PRT/100 = " + "(" + str(principal) + " × " + str(rate) + " × " + str(time) + ")" + "/100 = " + simple_interest)
+
+# Learning python
