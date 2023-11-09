@@ -1,4 +1,4 @@
-print("Welcome to Yusuf & Sons Ltd".upper().center(80))
+print("                         -------------------------------\n                         | Welcome to Yusuf & Sons Ltd |\n                         ------------------------------".upper())
 
 principal = float(input("Enter your initial amount(₦): "))
 interest_rate = float(input("Enter an interest rate(%): "))
