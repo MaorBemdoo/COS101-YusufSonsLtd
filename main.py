@@ -8,5 +8,5 @@ time = float(input("Enter a time(years): "))
 simple_interest = "₦" + str((principal * ( 1 + ( interest_rate * time))))
 compound_interest = "₦" + str(principal * (1 + (interest_rate/n)) ** (n * time))
 
-print("\nSimple Interest = P(1 + rt) = " + "(" + str(principal) + " × " + str(rate) + " × " + str(time) + ")" + "/100 = " + simple_interest)
-print("\nCompound Interest = P(1+(r/100))-P = " + str(principal) + "(" + str(1) + " + " + "(" + str(rate) + ")" + "/100)" + " - " + str(principal))
+print("\nSimple Interest = P(1 + rt) = " + "(" + str(principal) + "(" + str(1) + " + " + "(" + str(interest_rate) + " * " + str(time) + "))) = " + simple_interest)
+print("\nCompound Interest = P(1 + r/n)^nt = " + str(principal) + "(" + str(1) + " + " + "(" + str(rate) + ")" + "/100)" + " - " + str(principal))
