@@ -2,7 +2,7 @@ print("                         -------------------------------\n               
 
 principal = float(input("Enter your initial amount(₦): "))
 interest_rate = float(input("Enter an interest rate(%): "))
-n = int(input("Enter number of times interest applied per time period: "))
+n = int(input("Enter number of times interest is applied per time period: "))
 time = float(input("Enter a time(years): "))
 
 simple_interest = "₦" + str((principal * ( 1 + ( interest_rate * time))))
