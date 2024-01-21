@@ -4,7 +4,7 @@
 
 ## Question
 
-Write a program in python for a business **Yusuf & Sons**. Calculate the Simple Interest and Compound Interest and print the name of the business and the Simple Interest. Let the user enter Initial principal, interest rate, number of times interest applied per time period and number of time periods elapsed.
+Write a program in python for a business proposal on  **Yusuf & Sons**. Calculate the Simple Interest and Compound Interest and print the name of the business and the Simple Interest. Let the user enter Initial principal, interest rate, number of times interest applied per time period and number of time periods elapsed.
 
 ```
     S.I = P(1 + rt)
