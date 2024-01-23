@@ -10,3 +10,5 @@ compound_interest = "₦" + str(principal * (1 + (interest_rate/n)) ** (n * time
 
 print("\nSimple Interest = P(1 + rt) = " + "(" + str(principal) + "(" + str(1) + " + " + "(" + str(interest_rate) + " × " + str(time) + "))) = " + simple_interest)
 print("\nCompound Interest = P(1 + r/n)^nt = " + str(principal) + "(" + str(1) + " + " + "(" + str(interest_rate) + " / " + str(n) + "))" + " ^( " + str(n) + " × " + str(time) + " ) = " + str(compound_interest))
+
+
